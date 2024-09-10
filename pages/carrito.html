@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="../estilos.css">
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo" src="../img/logo segunda2.svg" alt="Adventure">
+        <ul class="nav-links">
+            <li class="active"><a href="../index.html">Inicio</a></li>
+            <li><a href="../index.html#event-cards">Partidos</a></li>
+            <li><a href="#">Resultados</a></li>
+            <li><a href="#">Posiciones</a></li>
+            <li class="ctn"><a href="#">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <div class="header-content">
+            <h2>Carrito de Compras</h2>
+            <div class="line"></div>
+
+            <!-- Carrito de compras contenido -->
+            <div class="cart-section">
+                <div class="title">
+                    <h1>Resumen del Carrito</h1>
+                    <div class="line"></div>
+                </div>
+
+                <div id="cart-items"></div>
+                <button class="ctn" onclick="vaciarCarrito()">Vaciar Carrito</button>
+
+                <button class="ctn" onclick="location.href='../index.html'">Volver al Inicio</button>
+            </div>
+        </div>
+    </header>
+
+    <script src="../js/carrito.js"></script>
+</body>
+</html>
